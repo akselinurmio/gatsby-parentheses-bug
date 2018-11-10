@@ -1,0 +1,31 @@
+.example {
+  height: calc(100vh - 5rem - calc(10rem + 100px));
+  background: lightpink;
+}
+
+.working {
+  height: calc(100vh - 15rem - 100px);
+  background: lightgreen;
+}
+
+/* For the demo */
+
+.parent {
+  display: flex;
+  align-items: flex-start;
+}
+
+.example,
+.working {
+  padding: 1em;
+  flex: 1;
+}
+
+pre {
+  padding-left: 1em;
+  white-space: pre-wrap;
+}
+
+* {
+  box-sizing: border-box;
+}
